@@ -11,7 +11,6 @@ last_pos2 = gali.find(' ',first_pos1)
 
 # if last_pos2 == -1:
 #     last_pos2 = len(gali)
-
  
-print(gali[first_pos1:last_pos2])
+print(name +' is a '+ gali[first_pos1:last_pos2])
 
