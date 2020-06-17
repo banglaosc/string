@@ -1,11 +1,12 @@
 import random
+
 s_type_gali = ['sala','swor','shanto','sundor']
 
 s_random_gali  = random.choice(s_type_gali)
 
 name = 'sahrukh'
 
-print(name + ' is a ' +s_random_gali)
+print(name + ' is a ' + s_random_gali)
 
 
 
