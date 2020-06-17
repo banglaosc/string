@@ -1,16 +1,27 @@
-gali = "swor buka gada"
+import random
 
-name = 'Goni'
+s_type_gali = ['sala','swor','shanto','sundor']
 
-first_letter = name[0].lower()
+s_random_gali  = random.choice(s_type_gali)
 
-first_pos1 = gali.find(first_letter)
+name = 'sahrukh'
+
+print(name + ' is a ' + s_random_gali)
 
 
-last_pos2 = gali.find(' ',first_pos1)
+
+
+# name = 'Goni'
+
+# first_letter = name[0].lower()
+
+# first_pos1 = gali.find(first_letter)
+
+
+# last_pos2 = gali.find(' ',first_pos1)
 
 # if last_pos2 == -1:
 #     last_pos2 = len(gali)
  
-print(name +' is a '+ gali[first_pos1:last_pos2])
+# print(name +' is a '+ gali[first_pos1:last_pos2])
 
